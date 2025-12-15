@@ -21,10 +21,10 @@
 - O(capacity)
 
 ## Limitations
-Single lock limits parallel reads
-In-memory only
+- Single lock limits parallel reads
+- In-memory only
 
 ## Possible Improvements
-Read-write locks
-TTL-based eviction
-Sharding for scalability
+- Read-write locks
+- TTL-based eviction
+- Sharding for scalability
